@@ -1,0 +1,94 @@
+.c-about {
+  position: relative;
+  min-height: 640px;
+  @include touch() {
+    padding: 0 10px 10px;
+    text-align: center;
+  }
+  .u-paragraph {
+    @include touch() {
+      text-align: justify;
+    }
+  }
+  &__greeting {
+    position: relative;
+    @extend %u-title-underline;
+    &:before {
+      bottom: .3rem;
+      left: 2rem;
+      width: 7rem;
+    }
+  }
+  &__self-portrait-img {
+    width: 25em;
+    @include desktop() {
+      margin-top: 6em;
+    }
+  }
+  &__water-img {
+    width: 31em;
+    @include desktop() {
+      bottom: 5em;
+      position: absolute;
+      right: 5em;
+      width: 30em;
+    }
+  }
+  &__link-wrapper {
+    margin-top: 2rem;
+    text-align: center !important;
+    @include desktop() {
+      float: right;
+      margin-top: .5em;
+    }
+  }
+  &__link {
+    border-bottom: .2rem solid $black;
+    color: $black;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: .1rem;
+  }
+  &__link + &__link {
+    margin-left: .6em;
+  }
+  &__art-1 {
+    margin: 3em 0;
+    text-align: left;
+    @include desktop() {
+      margin: -20em 0 0 27em;
+      max-width: 50rem;
+    }
+  }
+  &__p-1 {
+    @include desktop() {
+      margin-left: 1em;
+      margin-top: 6em;
+    }
+  }
+  &__p-2 {
+    margin-bottom: 1.5em;
+    @include desktop() {
+      margin: -5em 0 0 20em;
+      max-width: 40rem;
+    }
+  }
+  &__p-3 {
+    margin-top: 1.5em;
+    text-align: left;
+    @include desktop() {
+      margin: 2em 22em 0 0;
+      max-width: 25em;
+      text-align: right;
+    }
+  }
+  &__p-4 {
+    margin: 1.2em 20em 0 0;
+    text-align: right;
+    @include touch() {
+      font-size: initial;
+      margin: .5em 0 4em;
+      text-align: left;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+$yellow: lighten(yellow, 35%);
+$light-orange: #eddab8;
+$light-green: #ede7bd;
+$purple: #C493FF;
+$grey: #F0F0F0;
+$dark-grey: #494949;
+
+html {
+  font-size: 62.5%;
+}
+body {
+  color: $black;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}

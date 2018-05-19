@@ -1,0 +1,80 @@
+.c-menu {
+  min-height: 100vh;
+  padding: 7em 8em 0 2em;
+  z-index: 9;
+  @include fullhd() {
+    padding-top: 80%;
+  }
+  @include touch() {
+    background-color: white;
+    padding-left: 7em;
+    position: fixed;
+    width: 100%;
+  }
+  &__close {
+    bottom: 2.5rem;
+    height: 3rem;
+    position: fixed;
+    right: 2.5rem;
+    width: 3rem;
+    &:before, &:after {
+      background-color: $black;
+      content: '';
+      height: 3rem;
+      left: 1.5rem;
+      position: absolute;
+      width: .2rem;
+    }
+    &:after {
+      transform: rotate(-45deg);
+    }
+    &:before {
+      transform: rotate(45deg);
+    }
+  }
+  &__home {
+    color: $black;
+    font-size: 6em;
+    font-weight: bold;
+    line-height: .9em;
+    &:hover {
+      color: $black !important;
+    }
+  }
+  &__nav {
+    margin-top: 10em;
+  }
+  &__link {
+    font-size: 2em;
+    color: $black;
+    display: inline-block;
+    &:after {
+      border-bottom: .3rem solid $black;
+      content: '';
+      display: block;
+      transition: width .3s ease-in-out;
+      width: 0;
+    }
+    &:hover, &--active {
+      color: $black;
+    }
+    &:hover:after, &--active:after {
+      width: 100%;
+    }
+  }
+  &__item + &__item {
+    margin-top: 2em;
+  }
+  &__open {
+    background-color: $grey;
+    bottom: 0;
+    color: $dark-grey;
+    font-size: 2rem;
+    padding: .5em 0;
+    position: fixed;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 8;
+  }
+}
