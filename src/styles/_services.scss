@@ -1,0 +1,36 @@
+.c-services {
+  &__service {
+    max-width: 50rem;
+    position: relative;
+    text-indent: 5rem;
+    @include touch() {
+      margin: 0 auto;
+    }
+  }
+  &__title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2rem 0 1rem;;
+    position: relative;
+    @extend %u-title-underline;
+    &:before {
+      width: 10.7rem;
+    }
+    &--color2 {
+      &:before {
+        background-color: $light-green;
+        width: 8.7rem;
+      }
+    }
+  }
+  &__service1 {
+    @include desktop() {
+      margin-left: 2rem;
+    }
+  }
+  &__service2 {
+    @include desktop() {
+      margin-left: 20rem;
+    }
+  }
+}

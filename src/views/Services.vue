@@ -1,15 +1,13 @@
 <template>
-  <div class="services">
-    <h1>Nisl a est suspendisse a vestibulum dictumst massa integer sem praesent vestibulum odio eu eleifend. Quis scelerisque sed orci potenti a ut hendrerit mauris ullamcorper parturient adipiscing parturient vestibulum curabitur dictum quis phasellus metus nec hac malesuada facilisis nascetur nullam ullamcorper venenatis. Vitae himenaeos vestibulum id porta cum a nibh a metus dis pretium malesuada dolor dapibus nullam facilisi dictumst metus eros posuere aliquet cubilia pulvinar parturient ipsum. Parturient ullamcorper ut congue augue adipiscing ullamcorper a praesent suscipit ullamcorper augue placerat ridiculus condimentum vestibulum ornare vulputate ante mi cum. Velit mi aenean enim mi primis per cursus consectetur a tristique ut consectetur consectetur id ullamcorper faucibus a suspendisse a fringilla per at feugiat ultricies scelerisque lacinia.
-
-Conubia mattis lacinia vestibulum sed pretium ipsum nullam duis parturient mus per in condimentum id leo a inceptos rutrum a primis. Enim nam ac ad integer augue nulla a dui fames torquent primis ultricies mi auctor faucibus mollis aliquam. Ullamcorper vel natoque natoque curabitur commodo euismod nibh inceptos arcu eros mi suscipit non facilisi mus suspendisse viverra elementum proin enim semper eget. Ridiculus bibendum in ullamcorper nisl vel ut erat ornare dictumst a dui ut elit ullamcorper feugiat malesuada parturient a vestibulum volutpat vitae donec a elementum blandit. Tempor accumsan parturient non suspendisse quisque fringilla id non dis dui sodales cursus nam ullamcorper suspendisse mattis lacinia semper maecenas parturient ullamcorper malesuada parturient.
-
-Adipiscing eros purus enim neque ligula a ligula a a in consectetur fringilla per laoreet rhoncus vestibulum tempor a consectetur ut diam parturient adipiscing etiam purus est. Per ut urna mattis ad enim a vulputate commodo a leo ad sociis posuere a facilisi sit a parturient. A magna parturient morbi molestie cras parturient cras faucibus cras mus a a in risus ad bibendum adipiscing senectus adipiscing euismod nunc suspendisse vestibulum parturient inceptos curabitur.
-
-A a facilisi sem a a vel egestas a a at a at imperdiet vehicula a adipiscing netus sociis a. Quisque duis vestibulum aliquet scelerisque scelerisque iaculis condimentum habitasse curabitur parturient felis gravida torquent a a dolor nec porta. A sit conubia nec ad adipiscing nunc penatibus scelerisque feugiat ut vestibulum aenean sodales ullamcorper arcu vestibulum per curabitur maecenas curabitur fames magna donec a ac libero.
-
-Nullam platea scelerisque urna montes donec quis mi pulvinar consectetur fermentum dui et hac a scelerisque id iaculis eu ullamcorper pretium. Scelerisque morbi dui habitasse ultrices ullamcorper elit dis venenatis arcu curae ullamcorper a in at fermentum dapibus parturient. Est scelerisque suscipit id enim consectetur augue a suspendisse est dapibus a conubia accumsan amet convallis donec suspendisse enim scelerisque aenean lobortis curabitur consectetur et litora. Eu a parturient consectetur tempus sed consequat pharetra molestie vestibulum maecenas vestibulum condimentum fermentum ante tellus aptent turpis ante diam curabitur torquent volutpat sem convallis.
-
-Lacus habitant sem cum id sit praesent condimentum consectetur cubilia neque vel nostra neque euismod libero consectetur praesent imperdiet lacinia eu. Malesuada velit a est lobortis ullamcorper facilisi a suspendisse aliquet per dignissim aenean adipiscing suspendisse urna vestibulum et massa fames. Pretium a vestibulum velit suspendisse felis cras dis commodo ad dapibus magna fringilla adipiscing ullamcorper in mollis pulvinar nisi convallis.</h1>
-  </div>
+  <section class="c-services u-section">
+    <h2 class="u-section__title u-hide--desktop">What can I do</h2>
+    <article class="c-services__service c-services__service1">
+      <h3 class="c-services__title">Design</h3>
+      <p class="u-paragraph--md">From brainstorming to a prototype I can design your dream site/blog, based on your guidelines.</p>
+    </article>
+    <article class="c-services__service c-services__service2">
+      <h3 class="c-services__title c-services__title--color2">Code</h3>
+      <p class="u-paragraph--md">Code your site/blog! It can be a static site, a WordPress or Tumblr theme. No need to say, it'll be mobile friendly. I can code the front-end side of your web app too.</p>
+    </article>
+  </section>
 </template>

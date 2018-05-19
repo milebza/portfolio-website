@@ -1,0 +1,16 @@
+.c-contact {
+  @include desktop-only() {
+    max-width: 65rem;
+  }
+  &__btn {
+    width: 15rem;
+    float: right;
+    @include mobile() {
+      float: none;
+      margin: 0 auto 5rem;
+    }
+  }
+  &__message {
+    height: 40rem;
+  }
+}

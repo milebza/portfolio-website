@@ -1,0 +1,28 @@
+%u-form-element {
+  border: .3rem solid $black;
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1em .5em;
+  width: 100%;
+  &:focus {
+    outline: none;
+  }
+}
+input[type=text],
+input[type=email] {
+  @extend %u-form-element;
+  height: 4rem;
+}
+textarea {
+  @extend %u-form-element;
+  padding: .5em 1em;
+}
+.form-group {
+  margin-bottom: 1.5em;
+}
+.form-label {
+  display: block;
+  font-size: 1.5rem;
+  padding-bottom: .5rem;
+}
