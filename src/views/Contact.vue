@@ -19,7 +19,7 @@
       <div class="column is-two-thirds">
         <div class="form-group">
           <label class="form-label" for="message">Yes, tell me</label>
-          <textarea class="c-contact__message" id="message"></textarea>
+          <textarea class="c-contact__message" name="message" id="message"></textarea>
         </div>
         <div class="form-group">
           <button class="c-contact__btn u-btn" type="submit">Send</button>
