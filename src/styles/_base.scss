@@ -12,3 +12,13 @@ body {
   color: $black;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
 }
+::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+    background-color: white;
+}
+::-webkit-scrollbar-thumb {
+    background-color: $grey;
+    border: 1px solid $grey;
+    height: 1px;
+}

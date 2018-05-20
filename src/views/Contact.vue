@@ -1,6 +1,6 @@
 <template>
   <section class="c-contact u-section">
-    <h2 class="u-section__title u-hide--desktop">Contact</h2>
+    <h2 class="u-section__title u-hide--desktop">Say hi</h2>
     <form class="columns" action="https://formspree.io/miibaeza@gmail.com" method="POST">
       <div class="column">
         <div class="form-group">

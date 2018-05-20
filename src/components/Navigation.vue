@@ -6,7 +6,7 @@
           <nav class="c_menu__nav" style="margin-top: 8em">
             <ul>
               <li class="c-menu__item"><router-link @click.native="toggleMenu" class="c-menu__link" active-class="c-menu__link--active" to="/" exact>about</router-link></li>
-              <li class="c-menu__item"><router-link @click.native="toggleMenu" class="c-menu__link" active-class="c-menu__link--active" to="/what-can-i-do">what can i do</router-link></li>
+              <li class="c-menu__item"><router-link @click.native="toggleMenu" class="c-menu__link" active-class="c-menu__link--active" to="/what-can-i-do">what can I do</router-link></li>
               <li class="c-menu__item"><router-link @click.native="toggleMenu" class="c-menu__link" active-class="c-menu__link--active" to="/portfolio">portfolio</router-link></li>
               <li class="c-menu__item"><router-link @click.native="toggleMenu" class="c-menu__link" active-class="c-menu__link--active" to="/say-hi">say hi</router-link></li>
             </ul>
