@@ -22,7 +22,9 @@
           <textarea class="c-contact__message" name="message" id="message"></textarea>
         </div>
         <div class="form-group">
-          <button class="c-contact__btn u-btn" type="submit">Send</button>
+          <span class="u-btn__wrapper">
+            <button class=" u-btn" type="submit">Send</button>
+          </span>
         </div>
       </div>
     </form>

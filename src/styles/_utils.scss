@@ -12,6 +12,7 @@
   }
 }
 .u-btn {
+  @extend %hvr-sweep-to-right;
   background-color: white;
   border: .3rem solid $black;
   cursor: pointer;
@@ -19,33 +20,28 @@
   font-size: 1.8rem;
   font-weight: bold;
   padding: .3em;
-  position: relative;
   text-transform: uppercase;
-  vertical-align: middle;
-  transition: background-color .1s ease-in-out;
-  &:before {
-    background-color: $light-orange;
-    bottom: -1.5rem;
-    content: '';
-    display: inline-block;
-    height: 3.5rem;
-    right: -1.5rem;
-    position: absolute;
-    width: 15rem;
-    z-index: -1;
-  }
-  &:hover {
-    background-color: darken($light-orange, 10%);
-  }
+  width: 100%;
   &:active {
-    background-color: darken($light-orange, 10%);
     top: 1px;
-    &:before {
-      bottom: -1.4rem;
-    }
   }
   &:focus {
     outline: none;
+  }
+  &__wrapper {
+    display: block;
+    position: relative;
+    &:before {
+      background-color: $light-orange;
+      bottom: -1.5rem;
+      content: '';
+      display: inline-block;
+      height: 3.5rem;
+      right: -1.5rem;
+      position: absolute;
+      width: 15rem;
+      z-index: -1;
+    }
   }
 }
 .u-columns {

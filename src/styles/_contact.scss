@@ -2,15 +2,15 @@
   @include desktop-only() {
     max-width: 65rem;
   }
-  &__btn {
-    width: 15rem;
-    float: right;
-    @include mobile() {
-      float: none;
-      margin: 0 auto 5rem;
-    }
-  }
   &__message {
     height: 40rem;
+  }
+  .u-btn__wrapper {
+    float: right;
+    width: 15rem;
+    @include mobile() {
+      float: none;
+      margin: 0 auto 6rem;
+    }
   }
 }
