@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "npm run build; push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "bulma": "^0.7.1",
@@ -18,7 +19,8 @@
     "@vue/cli-service": "^3.0.0-beta.10",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
-    "vue-template-compiler": "^2.5.13"
+    "vue-template-compiler": "^2.5.13",
+    "push-dir": "^0.4.1"
   },
   "babel": {
     "presets": [
