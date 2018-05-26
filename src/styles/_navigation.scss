@@ -48,10 +48,13 @@
     font-size: 2em;
     color: $black;
     display: inline-block;
+    position: relative;
     &:after {
-      border-bottom: .3rem solid $black;
+      border-bottom: .3rem solid #e6c384;
+      bottom: -1px;
       content: '';
       display: block;
+      position: absolute;
       transition: width .3s ease-in-out;
       width: 0;
     }
