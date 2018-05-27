@@ -2,12 +2,15 @@
 @import '../../node_modules/bulma/sass/base/_all';
 @import '../../node_modules/bulma/sass/elements/container';
 @import '../../node_modules/bulma/sass/grid/columns';
+@import 'tiny-slider';
 @import 'base';
-@import 'button-effect';
+@import 'button-hover';
 @import 'utils';
 @import 'form';
 @import 'borders';
 @import 'navigation';
 @import 'about';
 @import 'services';
+@import 'portfolio';
+@import 'gallery';
 @import 'contact';

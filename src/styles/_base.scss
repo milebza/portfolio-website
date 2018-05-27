@@ -22,3 +22,11 @@ body {
     border: 1px solid $grey;
     height: 1px;
 }
+button {
+  background-color: white;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  &:active, &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,29 @@
+.c-gallery {
+  height: 50rem;
+  position: relative;
+  width: 60rem;
+  @include touch() {
+    margin: 0 auto;
+  }
+  @include mobile() {
+    height: auto;
+    width: auto;
+  }
+  .u-paragraph {
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .tns-controls {
+    bottom: 0;
+    left: 50%;
+    margin-left: -41.5px;
+    position: absolute;
+    @include touch() {
+      position: relative;
+      display: none;
+    }
+    button {
+      font-size: 1.6rem;
+    }
+  }
+}
