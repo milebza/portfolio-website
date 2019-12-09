@@ -1,6 +1,6 @@
 <template>
   <section class="c-portfolio">
-    <BackButton />
+    <BackButton /><br><br>
     <ArtGallery/>
   </section>
 </template>

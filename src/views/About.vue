@@ -25,7 +25,7 @@
       I like to explore the places around me and record their details.
     </p>
     <p class="c-about__p-4 u-paragraph u-paragraph--md">
-      I also make collages.
+      I do photography and collages.
     </p>
   </section>
 </template>
